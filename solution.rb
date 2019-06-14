@@ -1,6 +1,6 @@
 require 'sinatra'
 
-get '/maker/:nombre' do
+get '/makers/:nombre' do
   if params[:nombre] == nil || params[:nombre]==""
     "<h1>Hola desconocido!</h1>"
   else
